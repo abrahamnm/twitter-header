@@ -17,9 +17,9 @@ inputs:
   access_token_secret:
     description: 'Twitter user access token secret'
     required: true
-  runs:
-    using: 'node12'
-    main: 'dist/index.js'
-  branding:
-    color: blue
-    icon: upload-cloud
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  color: blue
+  icon: upload-cloud
