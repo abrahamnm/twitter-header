@@ -1,0 +1,21 @@
+name: Test Action
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./
+        with:
+          header_path: banner_test.png
+          api_key: ${{ secrets.API_KEY }}
+          api_secret: ${{ secrets.API_SECRET }}
+          access_token: ${{ secrets.ACCESS_TOKEN }}
+          access_token_secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+
