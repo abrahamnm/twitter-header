@@ -1,18 +1,25 @@
 name: 'Twitter Header Action'
+author: 'Abraham Nuñez'
 desctription: 'Github action for updating your twitter header/banner.'
 inputs:
   header_path:
     description: 'Path of the image to use as header'
     required: true
-  consumer_key:
-    description: 'Twitter app consumer API key'
+  api_key:
+    description: 'Twitter app API key'
     required: true
-  consumer_secret:
-    description: 'Twitter app consuper API secret key'
+  api_secret:
+    description: 'Twitter app API key secret'
     required: true
-  access_token_key:
+  access_token:
     description: 'Twitter user access token'
     required: true
   access_token_secret:
-    description: 'Twitter user secret'
+    description: 'Twitter user access token secret'
     required: true
+  runs:
+    using: 'node12'
+    main: 'dist/index.js'
+  branding:
+    color: blue
+    icon: upload-cloud
