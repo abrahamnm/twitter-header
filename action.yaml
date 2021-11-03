@@ -1,0 +1,18 @@
+name: 'Twitter Header Action'
+desctription: 'Github action for updating your twitter header/banner.'
+inputs:
+  header_path:
+    description: 'Path of the image to use as header'
+    required: true
+  consumer_key:
+    description: 'Twitter app consumer API key'
+    required: true
+  consumer_secret:
+    description: 'Twitter app consuper API secret key'
+    required: true
+  access_token_key:
+    description: 'Twitter user access token'
+    required: true
+  access_token_secret:
+    description: 'Twitter user secret'
+    required: true

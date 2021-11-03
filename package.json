@@ -1,0 +1,31 @@
+{
+  "name": "twitter-header",
+  "version": "1.0.0",
+  "description": "Github action for updating your twitter header/banner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrahamnm/twitter-header.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "JavaScript",
+    "Twitter"
+  ],
+  "author": "Abraham Nuñez <abrahamnm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abrahamnm/twitter-header/issues"
+  },
+  "homepage": "https://github.com/abrahamnm/twitter-header#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.31.1"
+  }
+}
