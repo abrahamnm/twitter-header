@@ -1,0 +1,30 @@
+name: Build dist file
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: NPM Install
+        run: npm install
+
+      - name: Build dist file
+        run: npm prepare
+
+      - name: Commit updated version
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: Abraham Nunez
+          author_email: abrahamnm@gmail.com
+          message: 'Build dist file'
+          add: 'dist/'
