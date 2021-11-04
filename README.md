@@ -1,4 +1,5 @@
 # Twitter Header GitHub Action
+[![Build dist file](https://github.com/abrahamnm/twitter-header/actions/workflows/build.yaml/badge.svg)](https://github.com/abrahamnm/twitter-header/actions/workflows/build.yaml) [![Test Action](https://github.com/abrahamnm/twitter-header/actions/workflows/test.yml/badge.svg)](https://github.com/abrahamnm/twitter-header/actions/workflows/test.yml)
 
 Update your twitter header from a github action.
 
