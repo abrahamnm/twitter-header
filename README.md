@@ -28,4 +28,4 @@ jobs:
           access_token_secret: ${{ secrets.ACCESS_TOKEN_SECRET }}
 ```
 
-See the [actions tab](https://github.com/abrahamnm/twitter-header/actions) for runs of this action! :rocket:
+See the [actions tab](https://github.com/abrahamnm/twitter-header/actions/workflows/test.yml) for runs of this action! :rocket:
