@@ -4,7 +4,7 @@ Update your twitter header from a github action.
 
 ## Usage
 
-You can consume the action by referencing the v1 branch and using your Twitter App credentials. To connect to the Twitter API you'll need to set up an app (or use an existing one) in the (Twitter Developer Portal)[https://developer.twitter.com/en/portal/], configure the permissions to "Read and write and Direct message" and generate an "API Key and Secret" and "Access Token and Secret" from the "Keys and tokens" section.
+You can consume the action by referencing the v1 branch and using your Twitter App credentials. To connect to the Twitter API you'll need to set up an app (or use an existing one) in the [Twitter Developer Portal](https://developer.twitter.com/en/portal/), configure the permissions to "Read and write and Direct message" and generate an "API Key and Secret" and "Access Token and Secret" from the "Keys and tokens" section.
 
 Set up those credentials as secrets in your repository and add them to the workflow like in the example below:
 
