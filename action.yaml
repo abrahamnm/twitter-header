@@ -1,6 +1,6 @@
 name: 'Twitter Header Action'
 author: 'Abraham Nuñez'
-desctription: 'Github action for updating your twitter header/banner.'
+description: 'Github action for updating your twitter header/banner.'
 inputs:
   header_path:
     description: 'Path of the image to use as header'
