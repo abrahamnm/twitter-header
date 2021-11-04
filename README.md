@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/javascript-action@v1.0.0
+      - uses: abrahamnm/twitter-header@v1.0.0
         with:
           header_path: header_file.png
           api_key: ${{ secrets.API_KEY }}
