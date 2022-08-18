@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/abrahamnm/twitter-header#readme",
   "dependencies": {
-    "@actions/core": "^1.6.0",
+    "@actions/core": "^1.9.1",
     "fs-extra": "^10.0.0",
     "twitter-api-client": "^1.4.0"
   },
